@@ -1,0 +1,144 @@
+
+main{
+    background-image: url(../photos/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.mainOverlay{
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.mainTitle{
+    margin-bottom: 7rem;
+    
+}
+main .mainTitle h1{
+    font-size: 4rem;
+}
+
+
+nav{
+    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    font-size: 1.5rem;
+    
+}
+nav a:hover , nav i:hover{
+    color: brown !important;
+}
+nav a,nav i{
+    transition: 0.3s;
+    cursor: pointer;
+    color: white !important;
+    
+}
+
+#Details h3{
+    background-color: #E68285;
+    margin: 0;
+    padding: 6px;
+    color: white;
+}
+#Details p{
+    background-color: #CCCCCC;
+    margin: 0;
+    
+}
+.w-60{
+    width: 60%;
+}
+.box{
+    border: 1px solid white ;
+    padding: 3rem 6rem;
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+#Duration{
+    background-image: url(../photos/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+nav{
+    left: -20%;
+    
+}
+
+.settings{
+  
+    left: 100%;
+    top: 50%;
+}
+.close{
+    left:80%
+}
+#Details p:not(.firstOne){
+    display: none;
+    
+}
+
+.socialIcons i{
+    border: 1px solid grey;
+    padding: 10px;
+    transition: 1s ease;
+    
+}
+.socialIcons i:hover{
+    background-color: #D62E33;
+    color: white;
+
+}
+.text-red{
+    color: #D62E33;
+}
+
+.sendMsgBtn{
+    color: white;
+    background-color: #D62E33;
+    border: none;
+    width: 10rem;
+    transition: 0.5s ease;
+
+}
+
+.sendMsgBtn:hover{
+filter: brightness(110%);
+}
+
+
+
+@media only screen and (max-width: 768px){
+   nav{
+    font-size: 1rem;
+    width: 28%;
+    left:-30%
+   }
+   .box{
+    padding: 1rem 2rem !important;
+    font-size: 1rem;
+   }
+}
+
+@media only screen and (max-width: 992px){
+    .box{
+        padding: 2rem 4rem;
+    }
+    
+}
+
+
+
+
+
+
+
+

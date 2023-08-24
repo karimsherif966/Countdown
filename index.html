@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party countdown</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- styling css file -->
+    <link rel="stylesheet" href="css/styling.css">
+</head>
+<body>
+    <main id="Home" class="d-flex align-items-center">
+        <nav class="position-fixed bg-black pt-5 ps-4 d-flex">
+            <i class="fa-solid fa-xmark text-white ms-auto close position-absolute"></i>
+            <ul class="list-unstyled  gap-5 d-flex flex-column pt-5">
+                <li><a my-href="#Home">Home</a></li>
+                <li><a my-href="#Details">Details</a></li>
+                <li><a my-href="#Duration">Duration</a></li>
+                <li><a my-href="#Contact">Contact</a></li>
+            </ul>
+            
+            <div class="settings d-flex gap-1 text-white fs-2 align-items-center position-absolute fixed-top ms-4 ">
+                <i class="fa-solid fa-bars mb-2"></i>
+                <p>open</p>
+            </div>
+        </nav>
+        
+        <div class="mainOverlay position-absolute h-100 w-100 d-flex align-items-center justify-content-center top-0">
+               <div class="position-relative mainTitleContainer">
+                <div class="mainTitle text-center text-white d-flex flex-column align-items-center  ">
+                    <h1>Egyption Party</h1>
+                    <p>Let's have Fun</p>
+                </div>
+               </div>
+               
+        </div>
+        
+       
+        
+        
+    </main>
+    <!-- /////////////// -->
+    <section id="Details" class="px-md-5 py-5">
+        <div class="container px-md-5 py-5">
+            <div class="text-center w-60 m-auto">
+            <h3>Singer one</h3>
+            <p class="firstOne">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <h3>Singer two</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <h3>Singer three</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <h3>Singer four</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- //////////////// -->
+    <section id="Duration">
+       <div class="mainOverlay">
+        <div class="container-lg p-5 ">
+           <div class="row ">
+            <div class="col-3">
+                <p class="box days"></p>
+            </div>
+            <div class="col-3">
+                <p class="box hrs"></p>
+            </div>
+            <div class="col-3">
+                <p class="box min"></p>
+            </div>
+            <div class="col-3">
+                <p class="box sec"></p>
+            </div>
+           </div>
+        </div>
+       </div>
+
+    </section>
+   <!-- ///////////// -->
+   <section id="Contact">
+    <div class="container py-5">
+        <h1 class="text-center fw-bold pt-5">JOIN US</h1>
+        <p class="text-muted text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <div class="row py-5 gy-4">
+            <div class="col-md-6">
+                <h4 class="fw-bolder">CONTACT INFO</h4>
+                <p class="text-center text-muted">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+            <div class="text-muted d-flex gap-2 mt-5 justify-content-center">
+                <i class="fa-solid fa-location-dot pt-1"></i>
+                <p> New Street 22545, Nexa Road, New York City, USA</p>
+            </div>
+            <div class="text-muted d-flex gap-2 justify-content-center py-3">
+                <i class="fa-solid fa-envelope pt-1"></i>
+                <p> hello@uigrid.com</p>
+            </div>
+            <div class="text-muted d-flex gap-2 justify-content-center">
+                <i class="fa-solid fa-phone pt-1"></i>
+                <p> 001-000-000-000</p>
+            </div>
+            <div class="socialIcons d-flex gap-3 fs-5  mt-5">
+                <a href="https://twitter.com/" class="text-muted"  target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://facebook.com/" class="text-muted" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/" class="text-muted" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com/" class="text-muted" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+            </div>
+            </div>
+            <div class="col-md-6 gap-3 d-flex flex-column gap-4">
+                <input type="text" placeholder="Enter Name" name="name" class="form-control text-muted rounded-0">
+                <input type="text" placeholder="Enter Email" name="email" class="form-control text-muted rounded-0">
+                <textarea placeholder="Enter Message" rows="7" name="message" class="form-control text-muted rounded-0 msg"></textarea>
+                <p class="fs-5 char"></p>
+                <button class="sendMsgBtn p-3">SEND MESSAGE</button>
+
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+   
+
+
+
+
+
+
+    <!-- JQuery -->
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+       <!-- bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Javascript file -->
+    <script src="js/index.js"></script>
+
+    
+</body>
+</html>
